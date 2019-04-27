@@ -25,7 +25,7 @@ SECRET_KEY = 't)_1kgh=gp%!*bxqq9btogr*#4(7=c1^q8-u37t=4-icjry!*u'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["GeraPC.pythonanywhere.com", "gerapc.pythonanywhere.com"]
 
 
 # Application definition
@@ -70,6 +70,7 @@ TEMPLATES = [
     },
 ]
 
+
 WSGI_APPLICATION = 'solarpv_project.wsgi.application'
 
 
@@ -79,10 +80,10 @@ WSGI_APPLICATION = 'solarpv_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': "solarpv",
-        'USER': "root",
-        "PASSWORD": "",
-        "HOST": "localhost",
+        'NAME': "GeraPC$solarpv",
+        'USER': "GeraPC",
+        "PASSWORD": "solarpv123",
+        "HOST": "GeraPC.mysql.pythonanywhere-services.com",
         "PORT": 3306,
     }
 }
@@ -128,3 +129,4 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'solarpv/static')
 ]
+STATIC_ROOT = os.path.join(BASE_DIR, 'solarpv/static/solarpv')

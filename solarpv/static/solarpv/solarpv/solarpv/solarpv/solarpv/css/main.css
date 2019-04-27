@@ -1,0 +1,47 @@
+.logo {
+  left: 1em;
+}
+
+
+.sidetitle {
+	line-height: 300%;
+}
+
+img#navlogo {
+	padding-top: 4px; 
+	padding-left: 5px;
+}
+
+.pad {
+	padding-left: 1em;
+}
+
+.topad {
+	padding-top: 1px;
+}
+
+.ttpad {
+	padding-top: 2em;
+}
+
+h5 {
+	font-size: 30px;
+}
+
+#cabutton {
+	padding-top: 2em;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+
+
