@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 't)_1kgh=gp%!*bxqq9btogr*#4(7=c1^q8-u37t=4-icjry!*u'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ["GeraPC.pythonanywhere.com", "gerapc.pythonanywhere.com"]
 
